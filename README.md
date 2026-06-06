@@ -4,6 +4,16 @@ A course-based task manager built to practise modern React fundamentals in a com
 
 [Live demo](https://ssimchenko.github.io/todo-react/) 
 
+## Screenshots
+
+![Todo React task list with completed and active tasks](docs/screenshots/task-list.jpg)
+
+*Task list with completion tracking, statistics, and quick actions.*
+
+![Todo React search with highlighted matching text](docs/screenshots/task-search.jpg)
+
+*Task filtering with safe highlighting of the matching text.*
+
 ## What it can do
 
 - Add, complete and delete tasks
@@ -56,5 +66,3 @@ npm run preview
 ```
 
 The app uses `localStorage` by default. To practise requests against `json-server`, start `npm run server` and run Vite with `VITE_STATIC_BACKEND=false`.
-
-##
