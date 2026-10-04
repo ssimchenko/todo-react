@@ -21,7 +21,7 @@ const TaskPage = (props) => {
       .finally(() => {
         setIsLoading(false)
       })
-  }, [])
+  }, [taskId])
 
   if (isLoading) {
     return <div>Loading...</div>
@@ -34,7 +34,7 @@ const TaskPage = (props) => {
   return (
     <div>
       <h1>{task.title}</h1>
-      <p>{task.isDone ? 'Задача выполнена' : 'Задача не выполнена'}</p>
+      <p>{task.isDone ? 'Task completed' : 'Task not completed'}</p>
     </div>
   )
 }
