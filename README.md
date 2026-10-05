@@ -57,8 +57,4 @@ npm run preview
 
 The app uses `localStorage` by default. To practise requests against `json-server`, start `npm run server` and run Vite with `VITE_STATIC_BACKEND=false`.
 
-## Learning project note
-
-I built this project while completing Alexander Lamkov's [React course](https://www.youtube.com/playlist?list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A). The application follows the course implementation and was used to study each stage hands-on, from components and hooks to architecture and deployment.
-
-The original lesson-by-lesson history and reference implementation are available in the [course repository](https://github.com/aleksanderlamkov/todo-react). This repository contains my completed course version, repository cleanup and documentation.
+##
