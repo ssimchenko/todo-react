@@ -2,7 +2,7 @@
 
 A course-based task manager built to practise modern React fundamentals in a complete application.
 
-[Live demo](https://ssimchenko.github.io/todo-react/) · [React course](https://www.youtube.com/playlist?list=PL0MUAHwery4omH4GyVQ-lI2R326tOdN7A)
+[Live demo](https://ssimchenko.github.io/todo-react/) 
 
 ## What it can do
 
