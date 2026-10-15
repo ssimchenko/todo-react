@@ -51,6 +51,12 @@ src/
 
 The structure is inspired by Feature-Sliced Design and keeps domain logic separate from reusable UI and infrastructure.
 
+## Design decisions
+
+- Task data is accessed through an adapter, so the application can switch between `localStorage` and `json-server` without changing UI components.
+- Search text is rendered safely instead of being inserted as HTML, which avoids XSS risks when a task title contains markup-like text.
+- Route-level screens stay separate from reusable features and entities, making the project easier to extend with new task views.
+
 ## Run locally
 
 ```bash
